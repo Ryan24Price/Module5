@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const friends = require("c:/Users/milio/IOD class/Module5/Exercise 4/Models/friends");
+const friends = require("../models/friends");
 
 // TODO - #1: Add support to the 'filter' endpoint for a new query parameter 'letter' which filters friends by starting letter
 
